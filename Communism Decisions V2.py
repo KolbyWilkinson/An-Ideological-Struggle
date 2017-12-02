@@ -59,24 +59,24 @@ if i==("Stalin" or "stalin"):
             if h==("Y"or "y"):
                 national_unity -= 20
                 keywordArg (national_unity)
-                    sys.exit ()
+                sys.exit ()
                 k = input('Invade Finland Y/N?: ')
                 print (k)
                 if k==("Y"or "y"):
                         print ('Our troops are massacred. Withdraw from Finland.')
                         if k==("Y"or "y"):
-                        happiness_of_peasants -= 25
-                        happiness_of_middle_class -= 15
-                        happiness_of_rich -= 20
-                        foreign_relations -= 10
-                        happiness_of_politicians -= 15
-                        happiness_of_soldiers -= 35
-                        keywordArg (happiness_of_peasants)
-                        keywordArg (happiness_of_the_middle_class)
-                        keywordArg (happiness_of_rich)
-                        keywordArg (foreign_relations)
-                        keywordArg (happiness_of_politicians)
-                        keywordArg (happiness_of_soldiers)
+                            happiness_of_peasants -= 25
+                            happiness_of_middle_class -= 15
+                            happiness_of_rich -= 20
+                            foreign_relations -= 10
+                            happiness_of_politicians -= 15
+                            happiness_of_soldiers -= 35
+                            keywordArg (happiness_of_peasants)
+                            keywordArg (happiness_of_the_middle_class)
+                            keywordArg (happiness_of_rich)
+                            keywordArg (foreign_relations)
+                            keywordArg (happiness_of_politicians)
+                            keywordArg (happiness_of_soldiers)
                             b = input ('Soldiers lose confidence in the government; Reassure them with promotions; or Send them to the gulag.: ')
                             print (b)
                             if b==("Reassure them with promotions"or "reassure them with promotions"):
@@ -88,21 +88,21 @@ if i==("Stalin" or "stalin"):
                                 happiness_of_politicians -= 5
                                 keywordArg (happiness_of_politicians)
                 if k==("N"or "n"):
-                        print ('You are accused of weak foreign policy.')
-                         national_unity -= 10
-                         keywordArg (national_unity)
-                        if k==("N"or "n"):
-                            v = input('The world laughs at you. Your politburo members ask you to make a decision; do you Exercise your military; or do you Lash out at the countries.: ')
-                            if v==("Exercise your military"or "exercise your military"):
-                                print ('Countries are quick to improve relations with the mighty Stalin.')
-                                happiness_of_soldiers += 30
-                                foreign_relations += 20
-                                keywordArg (happiness_of_soldiers)
-                                keywordArg (foreign_relations)
-                            if v==("Lash out at the countries"or "lash out at the countries"):
-                                print ('Countries are less likely to make trade deals and other treaties in the future.')
-                                foreign_relations -= 40
-                                keywordArg (foreign_relations)
+                    print ('You are accused of weak foreign policy.')
+                    national_unity -= 10
+                    keywordArg (national_unity)
+                    if k==("N"or "n"):
+                        v = input('The world laughs at you. Your politburo members ask you to make a decision; do you Exercise your military; or do you Lash out at the countries.: ')
+                        if v==("Exercise your military"or "exercise your military"):
+                            print ('Countries are quick to improve relations with the mighty Stalin.')
+                            happiness_of_soldiers += 30
+                            foreign_relations += 20
+                            keywordArg (happiness_of_soldiers)
+                            keywordArg (foreign_relations)
+                        if v==("Lash out at the countries"or "lash out at the countries"):
+                            print ('Countries are less likely to make trade deals and other treaties in the future.')
+                            foreign_relations -= 40
+                            keywordArg (foreign_relations)
         if h==("N"or "n"):
                    print ('Trotsky gains control. Game Over')
 if i==("Trotsky"or "trotsky"):
