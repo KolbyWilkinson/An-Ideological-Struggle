@@ -56,10 +56,9 @@ if i==("Stalin" or "stalin"):
         print (h)
         if h==("Y"or "y"):
             print ('The enemies of the state are dealt with.')
-            if h==("Y"or "y"):
-                national_unity -= 20
-                keywordArg (national_unity)
-                sys.exit ()
+            national_unity -= 20
+            keywordArg (national_unity)
+        if h==("Y" or "y"):
                 k = input('Invade Finland Y/N?: ')
                 print (k)
                 if k==("Y"or "y"):
